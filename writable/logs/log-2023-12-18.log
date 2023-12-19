@@ -1,0 +1,520 @@
+ERROR - 2023-12-18 05:07:47 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\xampp\htdocs\ecomm\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ecomm\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecomm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecomm\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecomm\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecomm\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ecomm\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ecomm\app\Controllers\Dashboard.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ecomm\system\CodeIgniter.php(942): App\Controllers\Dashboard->user_dashboard()
+#8 C:\xampp\htdocs\ecomm\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\ecomm\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecomm\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-18 05:07:47 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Dashboard.php(12): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->user_dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-18 05:11:15 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\xampp\htdocs\ecomm\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ecomm\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecomm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecomm\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecomm\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecomm\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ecomm\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ecomm\app\Controllers\Dashboard.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ecomm\system\CodeIgniter.php(942): App\Controllers\Dashboard->user_dashboard()
+#8 C:\xampp\htdocs\ecomm\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\ecomm\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecomm\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-18 05:11:15 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Dashboard.php(12): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->user_dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-18 05:11:19 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\xampp\htdocs\ecomm\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ecomm\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecomm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecomm\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecomm\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecomm\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ecomm\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ecomm\app\Controllers\Dashboard.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ecomm\system\CodeIgniter.php(942): App\Controllers\Dashboard->user_dashboard()
+#8 C:\xampp\htdocs\ecomm\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\ecomm\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecomm\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-18 05:11:19 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Dashboard.php(12): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->user_dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 05:16:54 --> Undefined variable $users
+in APPPATH\Views\dashboard\user_dashboard.php on line 20.
+ 1 APPPATH\Views\dashboard\user_dashboard.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\ecomm\\app\\Views\\dashboard\\user_dashboard.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ecomm\\app\\Views\\dashboard\\user_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard/user_dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(14): view('dashboard/user_dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->user_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 05:16:55 --> Undefined variable $users
+in APPPATH\Views\dashboard\user_dashboard.php on line 20.
+ 1 APPPATH\Views\dashboard\user_dashboard.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\ecomm\\app\\Views\\dashboard\\user_dashboard.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ecomm\\app\\Views\\dashboard\\user_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard/user_dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(14): view('dashboard/user_dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->user_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 05:17:07 --> Undefined variable $users
+in APPPATH\Views\dashboard\user_dashboard.php on line 20.
+ 1 APPPATH\Views\dashboard\user_dashboard.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\ecomm\\app\\Views\\dashboard\\user_dashboard.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ecomm\\app\\Views\\dashboard\\user_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard/user_dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(14): view('dashboard/user_dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->user_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 05:17:52 --> Undefined variable $users
+in APPPATH\Controllers\Dashboard.php on line 14.
+ 1 APPPATH\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\ecomm\\app\\Controllers\\Dashboard.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->user_dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 05:20:41 --> Undefined array key "username"
+in APPPATH\Views\dashboard\user_dashboard.php on line 22.
+ 1 APPPATH\Views\dashboard\user_dashboard.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\ecomm\\app\\Views\\dashboard\\user_dashboard.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ecomm\\app\\Views\\dashboard\\user_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard/user_dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(14): view('dashboard/user_dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->user_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-18 05:58:11 --> mysqli_sql_exception: Table 'ecommerce.admin' doesn't exist in C:\xampp\htdocs\ecomm\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ecomm\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecomm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecomm\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecomm\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecomm\app\Controllers\Home.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ecomm\system\CodeIgniter.php(942): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\ecomm\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ecomm\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ecomm\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-18 05:58:11 --> Table 'ecommerce.admin' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` IS NULL
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 2 APPPATH\Controllers\Home.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 05:59:06 --> Call to undefined method App\Controllers\Home::respond()
+in APPPATH\Controllers\Home.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 05:59:24 --> Call to undefined method App\Controllers\Home::respond()
+in APPPATH\Controllers\Home.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 05:59:28 --> Call to undefined method App\Controllers\Home::respond()
+in APPPATH\Controllers\Home.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 06:03:07 --> Trait "App\Controllers\ResponseTrait" not found
+in APPPATH\Controllers\Home.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-18 06:03:10 --> Trait "App\Controllers\ResponseTrait" not found
+in APPPATH\Controllers\Home.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-18 08:22:25 --> Undefined constant "App\Controllers\this"
+in APPPATH\Controllers\Home.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 08:24:13 --> Undefined constant "App\Controllers\this"
+in APPPATH\Controllers\Home.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:00:29 --> Undefined array key "user_type"
+in APPPATH\Controllers\Home.php on line 76.
+ 1 APPPATH\Controllers\Home.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_type"', 'C:\\xampp\\htdocs\\ecomm\\app\\Controllers\\Home.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:01:52 --> Undefined array key "usertype"
+in APPPATH\Controllers\Home.php on line 76.
+ 1 APPPATH\Controllers\Home.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usertype"', 'C:\\xampp\\htdocs\\ecomm\\app\\Controllers\\Home.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:15:37 --> Undefined variable $url
+in APPPATH\Controllers\Home.php on line 91.
+ 1 APPPATH\Controllers\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $url', 'C:\\xampp\\htdocs\\ecomm\\app\\Controllers\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:25:17 --> Undefined variable $session
+in APPPATH\Controllers\Home.php on line 81.
+ 1 APPPATH\Controllers\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\ecomm\\app\\Controllers\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 10:35:52 --> Invalid file: "admin_dahboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_dahboard.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin_dahboard', [], true)
+ 3 APPPATH\Controllers\AdminDashboard.php(11): view('admin_dahboard')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 15:30:10 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getMetod()
+in APPPATH\Controllers\AdminDashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 15:30:13 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getMetod()
+in APPPATH\Controllers\AdminDashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 15:30:15 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getMetod()
+in APPPATH\Controllers\AdminDashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 15:30:27 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getMetod()
+in APPPATH\Controllers\AdminDashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 15:32:48 --> Undefined property: App\Controllers\AdminDashboard::$reuest
+in APPPATH\Controllers\AdminDashboard.php on line 18.
+ 1 APPPATH\Controllers\AdminDashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminDashboard::$reuest', 'C:\\xampp\\htdocs\\ecomm\\app\\Controllers\\AdminDashboard.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 15:34:05 --> "upload" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 319.
+ 1 SYSTEMPATH\Validation\Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('upload')
+ 2 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('prod_image', 'prod_image', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\AdminDashboard.php(19): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 15:34:10 --> "upload" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 319.
+ 1 SYSTEMPATH\Validation\Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('upload')
+ 2 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('prod_image', 'prod_image', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\AdminDashboard.php(19): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:07:55 --> Undefined variable $image
+in APPPATH\Controllers\AdminDashboard.php on line 32.
+ 1 APPPATH\Controllers\AdminDashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', 'C:\\xampp\\htdocs\\ecomm\\app\\Controllers\\AdminDashboard.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:09:10 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\AdminDashboard.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:09:14 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\AdminDashboard.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:12:26 --> Undefined variable $username
+in APPPATH\Controllers\AdminDashboard.php on line 35.
+ 1 APPPATH\Controllers\AdminDashboard.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\ecomm\\app\\Controllers\\AdminDashboard.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:14:13 --> Undefined variable $email
+in APPPATH\Controllers\AdminDashboard.php on line 36.
+ 1 APPPATH\Controllers\AdminDashboard.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'C:\\xampp\\htdocs\\ecomm\\app\\Controllers\\AdminDashboard.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:14:36 --> Undefined variable $password
+in APPPATH\Controllers\AdminDashboard.php on line 37.
+ 1 APPPATH\Controllers\AdminDashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $password', 'C:\\xampp\\htdocs\\ecomm\\app\\Controllers\\AdminDashboard.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:14:51 --> Class "App\Controllers\productmodel" not found
+in APPPATH\Controllers\AdminDashboard.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-18 16:18:13 --> mysqli_sql_exception: Column 'prod_price' cannot be null in C:\xampp\htdocs\ecomm\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ecomm\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ec...', 0)
+#1 C:\xampp\htdocs\ecomm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ec...')
+#2 C:\xampp\htdocs\ecomm\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ec...')
+#3 C:\xampp\htdocs\ecomm\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ec...', Array, false)
+#4 C:\xampp\htdocs\ecomm\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ecomm\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ecomm\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ecomm\app\Controllers\AdminDashboard.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ecomm\system\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+#9 C:\xampp\htdocs\ecomm\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+#10 C:\xampp\htdocs\ecomm\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ecomm\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-18 16:18:13 --> Column 'prod_price' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ec_product` (`prod_id`, `prod_name`, `prod_price`, `prod_image`) VALUES (:prod_id:, :prod_name:, :prod_price:, :prod_image:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdminDashboard.php(43): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-18 16:18:34 --> mysqli_sql_exception: Column 'prod_price' cannot be null in C:\xampp\htdocs\ecomm\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ecomm\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ec...', 0)
+#1 C:\xampp\htdocs\ecomm\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ec...')
+#2 C:\xampp\htdocs\ecomm\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ec...')
+#3 C:\xampp\htdocs\ecomm\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ec...', Array, false)
+#4 C:\xampp\htdocs\ecomm\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ecomm\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ecomm\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ecomm\app\Controllers\AdminDashboard.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ecomm\system\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+#9 C:\xampp\htdocs\ecomm\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+#10 C:\xampp\htdocs\ecomm\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ecomm\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-18 16:18:34 --> Column 'prod_price' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ec_product` (`prod_id`, `prod_name`, `prod_price`, `prod_image`) VALUES (:prod_id:, :prod_name:, :prod_price:, :prod_image:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdminDashboard.php(43): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:24:24 --> Call to a member function getRandomName() on string
+in APPPATH\Controllers\AdminDashboard.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:28:25 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\AdminDashboard.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:30:04 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\AdminDashboard.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:34:49 --> Call to a member function getrandomName() on null
+in APPPATH\Controllers\AdminDashboard.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:37:24 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\AdminDashboard.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:43:15 --> Call to a member function isValid() on null
+in APPPATH\Controllers\AdminDashboard.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:52:39 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\AdminDashboard.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:53:38 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\AdminDashboard.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:53:58 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\AdminDashboard.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:56:50 --> Undefined variable $records
+in APPPATH\Views\product.php on line 15.
+ 1 APPPATH\Views\product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', 'C:\\xampp\\htdocs\\ecomm\\app\\Views\\product.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ecomm\\app\\Views\\product.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product', [], true)
+ 5 APPPATH\Controllers\AdminDashboard.php(50): view('product')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 17:01:26 --> Undefined variable $ec_products
+in APPPATH\Views\product.php on line 15.
+ 1 APPPATH\Views\product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ec_products', 'C:\\xampp\\htdocs\\ecomm\\app\\Views\\product.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ecomm\\app\\Views\\product.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product', [], true)
+ 5 APPPATH\Controllers\AdminDashboard.php(50): view('product')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 17:04:15 --> Undefined variable $ec_products
+in APPPATH\Views\product.php on line 15.
+ 1 APPPATH\Views\product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ec_products', 'C:\\xampp\\htdocs\\ecomm\\app\\Views\\product.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ecomm\\app\\Views\\product.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product', [], true)
+ 5 APPPATH\Controllers\AdminDashboard.php(50): view('product')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 17:17:11 --> Undefined variable $ec_products
+in APPPATH\Views\product.php on line 15.
+ 1 APPPATH\Views\product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ec_products', 'C:\\xampp\\htdocs\\ecomm\\app\\Views\\product.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ecomm\\app\\Views\\product.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product', [], true)
+ 5 APPPATH\Controllers\AdminDashboard.php(57): view('product')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 17:28:07 --> Undefined variable $ec_products
+in APPPATH\Views\product.php on line 15.
+ 1 APPPATH\Views\product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ec_products', 'C:\\xampp\\htdocs\\ecomm\\app\\Views\\product.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ecomm\\app\\Views\\product.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product', [], true)
+ 5 APPPATH\Controllers\AdminDashboard.php(57): view('product')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 17:28:11 --> Undefined variable $ec_products
+in APPPATH\Views\product.php on line 15.
+ 1 APPPATH\Views\product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ec_products', 'C:\\xampp\\htdocs\\ecomm\\app\\Views\\product.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ecomm\\app\\Views\\product.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product', [], true)
+ 5 APPPATH\Controllers\AdminDashboard.php(57): view('product')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 17:30:53 --> view(): Argument #2 ($data) must be of type array, App\Models\ProductModel given, called in C:\xampp\htdocs\ecomm\app\Controllers\AdminDashboard.php on line 57
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\AdminDashboard.php(57): view('product', Object(App\Models\ProductModel))
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 17:31:48 --> Undefined variable $data
+in APPPATH\Controllers\AdminDashboard.php on line 57.
+ 1 APPPATH\Controllers\AdminDashboard.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ecomm\\app\\Controllers\\AdminDashboard.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 17:32:14 --> Undefined variable $ec_products
+in APPPATH\Views\product.php on line 15.
+ 1 APPPATH\Views\product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ec_products', 'C:\\xampp\\htdocs\\ecomm\\app\\Views\\product.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ecomm\\app\\Views\\product.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product', [], true)
+ 5 APPPATH\Controllers\AdminDashboard.php(57): view('product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminDashboard->admin_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
